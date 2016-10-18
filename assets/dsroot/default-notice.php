@@ -1,4 +1,5 @@
-<?php // Copyright (c) 2016, SWITCH ?>
+<?php // Copyright (c) 2016, SWITCH 
+// CAF 2016 ?>
 
 <!-- Identity Provider Selection: Start -->
 <h1><?php echo getLocalString('settings'); ?></h1> 
