@@ -20,6 +20,8 @@ SRC_DSROOT="${MYPATH}/assets/dsroot"
 
 cp ${SRC_DSROOT}/images/logo.png ${CDS_HTMLWAYFDIR}/images/
 
+cp ${SRC_DSROOT}/css/default-styles.css ${CDS_HTMLWAYFDIR}/css/
+
 # overlay PHP files
 cp ${SRC_DSROOT}/*.php ${CDS_HTMLWAYFDIR}/ 
 

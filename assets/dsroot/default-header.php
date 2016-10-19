@@ -90,15 +90,19 @@
 <div id="container">
 	<div class="box">
 		<div id="header">
+		 <a href="<?php echo sprintf($federationURL, $language) ?>"><img src="./images/logo.png" alt="Federation Logo" id="federationLogo"></a>
+		<!--
 			<?php if (!empty($logoURL)) { ?>
 			<a href="<?php echo sprintf($federationURL, $language) ?>"><img src="<?php echo $logoURL ?>" alt="Federation Logo" id="federationLogo"></a>
 			<?php } ?>
 			<?php if (!empty($organizationLogoURL)) { ?>
 			<a href="<?php echo sprintf($organizationURL, $language) ?>"><img src="<?php echo $organizationLogoURL ?>" alt="Organization Logo" id="organisationLogo"></a>
 			<?php } ?>
+		-->
+			
 		</div>
 			<div id="content">
-				<ul class="menu">
+			<!--	<ul class="menu">
 					<?php if (!empty($federationURL) && getLocalString('about_federation') != '') { ?>
 					<li><a href="<?php echo sprintf($federationURL, $language) ?>"><?php echo getLocalString('about_federation'); ?></a></li>
 					<?php } ?>
@@ -112,4 +116,5 @@
 					<li class="last"><a href="<?php echo sprintf($privacyURL, $language) ?>"><?php echo getLocalString('privacy') ?></a></li>
 					<?php } ?>
 				</ul>
+				-->
 <!-- Body: Start -->
