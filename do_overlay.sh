@@ -7,6 +7,8 @@ set -x
 . /var/www/env
 
 WORKDIR="/var/www/_work"
+
+# it is implied that the do_overlay.sh is invoked inside at the root of overlay
 MYPATH="${PWD}"
 SRC_DSROOT="${MYPATH}/assets/dsroot"
 
@@ -15,11 +17,11 @@ SRC_DSROOT="${MYPATH}/assets/dsroot"
 ##
 
 # update the images directory
-cp ./images/logo.png ${CDS_HTMLWAYFDIR}/images/
+
+cp ${SRC_DSROOT}/images/logo.png ${CDS_HTMLWAYFDIR}/images/
 
 # overlay PHP files
-cd ${SRC_DSROOT}
-cp *.php ${CDS_HTMLWAYFDIR}/ 
+cp ${SRC_DSROOT}/*.php ${CDS_HTMLWAYFDIR}/ 
 
 
 
