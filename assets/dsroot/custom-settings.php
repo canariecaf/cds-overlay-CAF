@@ -19,5 +19,5 @@
 	</div>
 </form>
 
-<p><?php echo getLocalString('additional_info') ?></p>
+
 <!-- Identity Provider Selection: End -->

@@ -25,7 +25,4 @@
 	</div>
 </form>
 
-<?php if (getLocalString('additional_info') != '') { ?>
-<p><?php echo getLocalString('additional_info') ?></p>
-<?php } ?>
 <!-- Identity Provider Selection: End -->
