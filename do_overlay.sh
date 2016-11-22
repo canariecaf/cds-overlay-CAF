@@ -16,7 +16,7 @@ SRC_DSROOT="${MYPATH}/assets/dsroot"
 ## do the 'act of overlaying'
 ##
 #move actual DS php executable to our legacy location
-mv ${CDS_HTMLROOTDIR}/${CDS_HTMLWAYFDIR}/${CDS_WAYFORIGINFILENAME} ${CDS_HTMLROOTDIR}/${CDS_HTMLWAYFDIR}/${CDS_WAYFDESTFILENAME}
+# mv ${CDS_HTMLROOTDIR}/${CDS_HTMLWAYFDIR}/${CDS_WAYFORIGINFILENAME} ${CDS_HTMLROOTDIR}/${CDS_HTMLWAYFDIR}/${CDS_WAYFDESTFILENAME}
 
 # update the images directory
 
