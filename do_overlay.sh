@@ -20,12 +20,12 @@ SRC_DSROOT="${MYPATH}/assets/dsroot"
 
 # update the images directory
 
-cp ${SRC_DSROOT}/images/logo.png ${CDS_HTMLROOTDIR}/${CDS_HTMLWAYFDIR}/images/
+cp ${SRC_DSROOT}/images/logo.png ${CDS_HTMLROOTDIR}/images/
 
-cp ${SRC_DSROOT}/css/default-styles.css ${CDS_HTMLROOTDIR}/${CDS_HTMLWAYFDIR}/css/
+cp ${SRC_DSROOT}/css/default-styles.css ${CDS_HTMLROOTDIR}/css/
 
 # overlay PHP files
-cp ${SRC_DSROOT}/*.php ${CDS_HTMLROOTDIR}/${CDS_HTMLWAYFDIR}/ 
+cp ${SRC_DSROOT}/*.php ${CDS_HTMLROOTDIR}/
 
 
 
